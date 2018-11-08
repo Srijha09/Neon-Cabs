@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Driver.DriverDuringRideActivity">
+
+    <WebView
+        android:id="@+id/wv_maps"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/tv_riding_during"/>
+
+    <TextView
+        android:id="@+id/tv_riding_during"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/bt_stop_ride"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:text="Riding ..."
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="24sp"
+        android:layout_margin="5dp"/>
+
+    <Button
+        android:id="@+id/bt_stop_ride"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop Ride"
+        android:textColor="#ffffff"
+        android:background="@color/colorPrimaryDark"
+        android:layout_alignParentBottom="true"
+        android:textAllCaps="false"
+        android:textSize="24sp" />
+</RelativeLayout>

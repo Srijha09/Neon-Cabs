@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_book_rides_customer"
+            android:icon="@drawable/carrideicon"
+            android:title="Book Rides" />
+        <item
+            android:id="@+id/nav_profile_customer"
+            android:icon="@drawable/icons_user"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_your_rides_customer"
+            android:icon="@drawable/icons_car_pool"
+            android:title="Your Rides" />
+        <item
+            android:id="@+id/nav_payment_customer"
+            android:icon="@drawable/iconspurse"
+            android:title="Payments" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_emergency_customer"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Emergency" />
+
+        </menu>
+    </item>
+
+</menu>

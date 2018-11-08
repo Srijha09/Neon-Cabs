@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">409622304593-3i0q2h7eus266o8i14diuf1f8vqf32ef.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://noun-cabs.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">409622304593</string>
+    <string name="google_api_key" translatable="false">AIzaSyAhuQ3jUcWxgAa1-zEohCour_L-sg-9ShY</string>
+    <string name="google_app_id" translatable="false">1:409622304593:android:0845c510e0f73b6e</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAhuQ3jUcWxgAa1-zEohCour_L-sg-9ShY</string>
+    <string name="google_storage_bucket" translatable="false">noun-cabs.appspot.com</string>
+    <string name="project_id" translatable="false">noun-cabs</string>
+</resources>

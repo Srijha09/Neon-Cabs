@@ -1,0 +1,267 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.myhexaville.login.login.SignUpFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:animateLayoutChanges="true">
+
+        <RadioGroup
+            android:id="@+id/rg_typeOfUser"
+            android:layout_width="300dp"
+            android:layout_height="28dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/bubble"
+            android:gravity="center_vertical"
+            android:hint="Phone number"
+            android:inputType="number"
+            android:paddingStart="32dp"
+            android:paddingEnd="32dp"
+            >
+
+            <RadioButton
+                android:id="@+id/rb_driver"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Driver"
+                android:textColor="#ffffff"
+                android:textSize="14sp" />
+
+            <RadioButton
+                android:id="@+id/rb_customer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Customer"
+                android:textColor="#ffffff"
+                android:textSize="14sp" />
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/etv__phonenumber_register"
+            android:layout_width="300dp"
+            android:layout_height="28dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/bubble"
+            android:hint="Phone number"
+            android:inputType="phone"
+            android:paddingStart="32dp"
+            android:paddingEnd="32dp"
+            android:singleLine="true"
+            android:textColor="#ffffff"
+            android:textColorHint="#8effffff"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/etv_password_register"
+            android:layout_width="300dp"
+            android:layout_height="28dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/bubble"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:paddingStart="32dp"
+            android:paddingEnd="32dp"
+            android:singleLine="true"
+            android:textColor="#ffffff"
+            android:textColorHint="#8effffff"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/etv_confirm_password_register"
+            android:layout_width="300dp"
+            android:layout_height="28dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/bubble"
+            android:hint="@string/confirm_password"
+            android:inputType="textPassword"
+            android:paddingStart="32dp"
+            android:paddingEnd="32dp"
+            android:singleLine="true"
+            android:textColor="#ffffff"
+            android:textColorHint="#8effffff"
+            android:textSize="14sp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            >
+
+            <EditText
+                android:id="@+id/etv_first_name_register"
+                android:layout_width="150dp"
+                android:layout_height="28dp"
+                android:layout_marginRight="3dp"
+                android:background="@drawable/bubble"
+                android:hint="First Name"
+                android:paddingStart="32dp"
+                android:paddingEnd="32dp"
+                android:singleLine="true"
+                android:textColor="#ffffff"
+                android:textColorHint="#8effffff"
+                android:textSize="14sp" />
+
+
+            <EditText
+                android:id="@+id/etv_last_name_register"
+                android:layout_width="150dp"
+                android:layout_height="28dp"
+                android:background="@drawable/bubble"
+                android:hint="Last Name"
+                android:paddingStart="32dp"
+                android:paddingEnd="32dp"
+                android:singleLine="true"
+                android:textColor="#ffffff"
+                android:textColorHint="#8effffff"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            >
+
+            <Spinner
+                android:id="@+id/spinner_date_birth_register"
+                android:layout_width="100dp"
+                android:layout_height="28dp"
+                android:singleLine="true"
+                android:background="@drawable/bubble"
+                android:paddingEnd="32dp"
+                android:paddingStart="32dp"
+                android:layout_marginRight="3dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#8effffff" />
+
+            <Spinner
+                android:id="@+id/spinner_month_birth_register"
+                android:layout_width="100dp"
+                android:layout_height="28dp"
+                android:singleLine="true"
+                android:background="@drawable/bubble"
+                android:paddingEnd="32dp"
+                android:paddingStart="32dp"
+                android:layout_marginRight="3dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#8effffff" />
+
+
+
+            <Spinner
+                android:id="@+id/spinner_year_birth_register"
+                android:layout_width="100dp"
+                android:layout_height="28dp"
+                android:singleLine="true"
+                android:background="@drawable/bubble"
+                android:paddingEnd="32dp"
+                android:paddingStart="32dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#8effffff" />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/etv_licenseNo_register"
+            android:layout_width="300dp"
+            android:layout_height="28dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/bubble"
+            android:hint="License number"
+            android:paddingStart="32dp"
+            android:paddingEnd="32dp"
+            android:singleLine="true"
+            android:textColor="#ffffff"
+            android:textColorHint="#8effffff"
+            android:textSize="14sp" />
+
+
+        <EditText
+            android:id="@+id/etv_car_no_register"
+            android:layout_width="300dp"
+            android:layout_height="28dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/bubble"
+            android:hint="Car Number"
+            android:paddingStart="32dp"
+            android:paddingEnd="32dp"
+            android:singleLine="true"
+            android:textColor="#ffffff"
+            android:textColorHint="#8effffff"
+            android:textSize="14sp" />
+
+
+        <EditText
+            android:id="@+id/etv_car_name_register"
+            android:layout_width="300dp"
+            android:layout_height="28dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/bubble"
+            android:hint="Car Name"
+            android:paddingStart="32dp"
+            android:paddingEnd="32dp"
+            android:singleLine="true"
+            android:textColor="#ffffff"
+            android:textColorHint="#8effffff"
+            android:textSize="14sp" />
+
+
+        <EditText
+            android:id="@+id/etv_car_type_register"
+            android:layout_width="300dp"
+            android:layout_height="28dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/bubble"
+            android:hint="Car Type"
+            android:paddingStart="32dp"
+            android:paddingEnd="32dp"
+            android:singleLine="true"
+            android:textColor="#ffffff"
+            android:textColorHint="#8effffff"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/etv_address_register"
+            android:layout_width="300dp"
+            android:layout_height="28dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/bubble"
+            android:hint="Address"
+            android:paddingStart="32dp"
+            android:paddingEnd="32dp"
+            android:singleLine="true"
+            android:textColor="#ffffff"
+            android:textColorHint="#8effffff"
+            android:textSize="14sp" />
+
+
+
+
+
+        <TextView
+                android:id="@+id/tv_signup_register"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#ffffaa"
+                android:text="SIGN UP"
+                android:paddingTop="16dp"
+                android:textSize="36dp"
+                />
+
+
+    </LinearLayout>
+</FrameLayout>

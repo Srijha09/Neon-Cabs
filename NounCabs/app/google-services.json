@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "409622304593",
+    "firebase_url": "https://noun-cabs.firebaseio.com",
+    "project_id": "noun-cabs",
+    "storage_bucket": "noun-cabs.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:409622304593:android:0845c510e0f73b6e",
+        "android_client_info": {
+          "package_name": "com.myhexaville.login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "409622304593-5laq21ee4q4qntfq2gnsvs54onbv61b5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.myhexaville.login",
+            "certificate_hash": "b7c58aed76d0238d35c7857c52c9f92d7b34fe80"
+          }
+        },
+        {
+          "client_id": "409622304593-3i0q2h7eus266o8i14diuf1f8vqf32ef.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhuQ3jUcWxgAa1-zEohCour_L-sg-9ShY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "409622304593-3i0q2h7eus266o8i14diuf1f8vqf32ef.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
